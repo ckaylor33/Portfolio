@@ -1228,9 +1228,9 @@
                 <form
                   class="contact-form"
                   id="contact-form"
-                  action="php/contact.php"
                   name="contact"
                   data-netlify="true"
+                  data-netlify-recaptcha="true"
                   method="POST"
                 >
                   <div class="row">
@@ -1273,6 +1273,9 @@
                         rows="5"
                         required=""
                       ></textarea>
+                    </div>
+                    <div class="col-12">
+                      <div class="mb-3" data-netlify-recaptcha="true"></div>
                     </div>
                     <div class="col-12 form-submit">
                       <button
