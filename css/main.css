@@ -839,11 +839,19 @@ hr {
   padding: 38px 24px;
   text-align: center;
   transition: all 0.15s ease-in-out;
+  height: 350px;
 }
 
 .services-area .single-service .service-icon {
   display: inline-block;
   font-size: 50px;
+  margin-bottom: 22px;
+}
+
+.skills-logo {
+  display: inline-block;
+  height: 50px;
+  width: auto;
   margin-bottom: 22px;
 }
 
