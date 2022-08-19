@@ -111,6 +111,10 @@ hr {
   color: #fff;
 }
 
+.portfolio-item {
+height: 100%;
+}
+
 /* Section, title & description styles */
 .single-section {
   background-color: #fff;
